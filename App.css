@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  
+}
+
+header {
+  text-align: center;
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  
+  padding: 20px;
+}
+
+.introduction,
+.skills,
+.projects {
+  margin-bottom: 30px;
+}
+
+.projects .project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
